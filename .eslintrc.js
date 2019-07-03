@@ -1,6 +1,5 @@
-{
-    "extends": "react-app",
-    "plugins": ["prettier"],
+module.exports = {
+    "extends": ["react-app", "plugin:prettier/recommended"],
     "rules": {
       "prettier/prettier": "error"
     },
@@ -10,5 +9,4 @@
     "env": {
         "es6": true
     }
-}
-
+  };
