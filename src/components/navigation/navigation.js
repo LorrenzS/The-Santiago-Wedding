@@ -6,14 +6,10 @@ class Navigation extends Component {
 	render() {
 		return (
 			<Navbar bg="light" expand="lg">
-				<Navbar.Brand className="wedding-nav" href="/">
-					<span>The</span>
-					<span>Santiago</span>
-					<span>Wedding</span>
-				</Navbar.Brand>
+				<Navbar.Brand href="/">theSantiagoWedding</Navbar.Brand>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
-					<Nav className="mr-auto">
+					<Nav className="ml-auto">
 						<Nav.Link href="/wedding">Our Wedding</Nav.Link>
 						<Nav.Link href="/gallery">Gallery</Nav.Link>
 						<Nav.Link href="/registry">Registry</Nav.Link>

@@ -1,12 +1,45 @@
 @import '../../styles/globals';
 
-.wedding-nav {
+.navbar-brand {
 	font-family: $font-script;
 	font-size: 50px !important;
+}
+
+.bg-light {
+	background-color: $white !important;
 }
 
 .nav-link {
 	font-family: $font-heading;
 	text-transform: uppercase;
 	font-size: 15px !important;
+	margin: 0px 25px;
+	color: rgba(0, 0, 0, 0.8) !important;
+	-webkit-transition: color 0.15s ease-in;
+	-moz-transition: color 0.15s ease-in;
+	-o-transition: color 0.15s ease-in;
+	transition: color 0.15s ease-in;
+
+	&:hover {
+		color: $light-blue !important;
+		-webkit-transition: color 0.15s ease-in;
+		-moz-transition: color 0.15s ease-in;
+		-o-transition: color 0.15s ease-in;
+		transition: color 0.15s ease-in;
+	}
+}
+
+.navbar-light .navbar-toggler {
+	border: none !important;
+}
+
+button,
+button:active,
+button:focus,
+button:hover,
+.btn,
+.btn:active,
+.btn:focus,
+.btn:hover {
+	outline: none !important;
 }
