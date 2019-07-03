@@ -4,7 +4,7 @@ import App from './components/app/app';
 import { BrowserRouter } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 import './index.css';
-import { FirebaseContext } from './components/firebase';
+import { FirebaseContext } from './components/services/firebase';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from 'jquery';
