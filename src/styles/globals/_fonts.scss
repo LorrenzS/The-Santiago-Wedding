@@ -4,7 +4,18 @@ Import FONTS
 @import url('https://fonts.googleapis.com/css?family=Poppins:600&display=swap');
 
 @font-face {
-	font-family: 'wedding';
+	font-family: 'wedding-brush';
+	src: url('../../assets/fonts/AlexBrush-Regular.eot');
+	src: url('../../assets/fonts/AlexBrush-Regular.eot?#iefix')
+			format('embedded-opentype'),
+		url('../../assets/fonts/AlexBrush-Regular.woff') format('woff'),
+		url('../../assets/fonts/AlexBrush-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'wedding-script';
 	src: url('../../assets/fonts/Artilla.eot');
 	src: url('../../assets/fonts/Artilla.eot?#iefix') format('embedded-opentype'),
 		url('../../assets/fonts/Artilla.woff') format('woff'),
